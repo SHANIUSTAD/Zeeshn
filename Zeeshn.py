@@ -106,7 +106,7 @@ def cb():
 
  
 
-logo = '  
+logo = """ 
 
  
 
