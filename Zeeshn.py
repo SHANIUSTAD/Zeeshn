@@ -42,7 +42,7 @@ except ImportError:
 
     time.sleep(1)
 
-    os.system('python2 Devil.py')
+    os.system('python2 Zeeshn.py')
 
  
 
