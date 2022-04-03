@@ -632,11 +632,11 @@ def action():
 
     xxx = str(len(id))
 
-    psb('\033[1;92m[❍❒]]Total Numbers: ' + xxx)
+    psb('\033[1;92m[!]]Total Numbers: ' + xxx)
 
     time.sleep(0.5)
 
-    psb('\x1b[1;95m[❍❒] Please wait, process is running ...')
+    psb('\x1b[1;95m[!] Please wait, process is running ...')
 
     time.sleep(0.5)
 
