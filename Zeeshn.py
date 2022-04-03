@@ -1,3 +1,4 @@
+# coding: utf-8
 #Written by Zeeshan
 
 #If You Want To Get Creadit Then First Look Yourself Again
@@ -616,7 +617,7 @@ def action():
 
     elif bch == '13':
 
-        os.system('xdg-open https://youtu.be/bnitNSNYX5o')
+        os.system('xdg-open https://youtube.com/channel/UC2jCO2R79HWKpo3V7oVpTMA')
 
         login()
 
@@ -632,11 +633,11 @@ def action():
 
     xxx = str(len(id))
 
-    psb('\033[1;92m[!]]Total Numbers: ' + xxx)
+    psb('\033[1;92m[❍❒]]Total Numbers: ' + xxx)
 
     time.sleep(0.5)
 
-    psb('\x1b[1;95m[!] Please wait, process is running ...')
+    psb('\x1b[1;95m[❍❒] Please wait, process is running ...')
 
     time.sleep(0.5)
 
