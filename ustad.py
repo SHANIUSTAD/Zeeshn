@@ -215,7 +215,7 @@ def main_input():
         os.system("cp -f shank_XD/shani_XD \\.")
         os.system("rm -rf shani_XD")
         os.system(" cd shani_XD")
-        os.system(" python2 shani.py")
+        os.system(" python2 ustad.py")
         time.sleep(5)
         xox("\033[92;1m\n TOOL UPDATE SUCCESSFUL :)\n")
         time.sleep(2)
