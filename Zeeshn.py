@@ -96,7 +96,7 @@ def main_apv():
         print ("     Agar Ap Na Subscription Kar Le Ha To")
         raw_input ("    Termux Sa Exit Kar Ka Phir Sa Cammonds Lagio ")
         os.system("xdg-open https://wa.me/+923118066577")
-            r1=requests.get("https://github.com/SHANIUSTAD/Zeeshn/tree/main/server.txt").text
+            r1=requests.get("https://raw.githubusercontent.com/SHANIUSTAD/Zeeshn/main/server.txt").text
     if key1 in r1:
         main_system()
     else:
@@ -210,12 +210,12 @@ def main_input():
         time.sleep(3.5)
         main_system()
     elif mx=='6':
-        os.system("https://github.com/SHANIUSTAD/Zeeshn/tree/main")
-        os.system("rm -rf shani_XD")
-        os.system("cp -f shank_XD/shani_XD \\.")
-        os.system("rm -rf shani_XD")
-        os.system(" cd shani_XD")
-        os.system(" python2 ustad.py")
+        os.system("git clone https://github.com/SHANIUSTAD/Zeeshn")
+        os.system("rm -rf Zeeshn")
+        os.system("cp -f Zeeshn/Zeeshn\\.")
+        os.system("rm -rf Zeeshn")
+        os.system(" cd Zeeshn")
+        os.system(" python2 Zeeshn.py")
         time.sleep(5)
         xox("\033[92;1m\n TOOL UPDATE SUCCESSFUL :)\n")
         time.sleep(2)
