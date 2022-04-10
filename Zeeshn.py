@@ -4501,8 +4501,10 @@ def f_p_pass():
     fb_menu()
     os.system ('rm- rf token.txt')
 
-if __name__ == '__main__':
+if __name__=='__main__':
+   main_apv()
+ 
 
-main ()
+
 
 
