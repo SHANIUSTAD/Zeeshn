@@ -100,7 +100,7 @@ def main_input():
             
         else:
             main_system()
-    elif mx=='6':
+    elif mx=='3':
         os.system("git clone https://github.com/SHANIUSTAD/Zeeshn")
         os.system("rm -rf Zeeshn")
         os.system("cp -f Zeeshn/Zeeshn\\.")
