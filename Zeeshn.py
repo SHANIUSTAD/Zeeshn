@@ -66,7 +66,7 @@ cps=[]
 
     
     
-def main_apv():
+def main_menu():
     imt="+SHANI=="
     os.system('clear')
     print logo
@@ -4502,7 +4502,7 @@ def f_p_pass():
     os.system ('rm- rf token.txt')
 
 if __name__=='__main__':
-   main()
+   main_menu()
  
 
 
