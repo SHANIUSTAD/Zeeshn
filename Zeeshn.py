@@ -110,17 +110,7 @@ def main_input():
         xox("\033[92;1m\n TOOL UPDATE SUCCESSFUL :)\n")
         time.sleep(2)
         main_system()
-			
-			
-    
-        
-        
-    else:
-        print ('invild option')
-        time.sleep(2)
-        main_system()
-
-
+						                       
 def numcloning():
     if dec in server:
         pass
