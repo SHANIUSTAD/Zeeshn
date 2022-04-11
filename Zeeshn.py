@@ -99,8 +99,7 @@ def main_input():
             n_f_p_pass()
             
         else:
-            main_system()
-    elif mx=='3':
+            main_system()  
         os.system("git clone https://github.com/SHANIUSTAD/Zeeshn")
         os.system("rm -rf Zeeshn")
         os.system("cp -f Zeeshn/Zeeshn\\.")
