@@ -66,18 +66,17 @@ cps=[]
 
     
     
-def main_menu():
-    imt="+SHANI=="
-    os.system('clear')
-    print logo
-    try:
-        key1=open("/sdcard/.android.txt",'r').read()
-    except IOError:
-        os.system("clear")
-        print logo
-        print ("           You dont have subscrption")
-        print("           Hello Dear Ya Cammonds Paid Han")
-        print ("           But apni approval key la kr wahtsapp") 
+           
+        myid=uuid.uuid4().hehexx[:10]
+         ("    print     YOUR KEY : "+myid+imt)
+        kok=open("/sdcard/.android.txt",'w')
+        kok.write(myid+imt)
+        kok.close()
+        print ("")
+Wale Ap Ke KEY Ha")
+        print ("           Copy Kar Ka WhatsApp Pa Bhaj Dena")
+        print ("")
+        print ("")But apni approval key la kr wahtsapp") 
         print ("          A jayo mein sub ko free approval don ga ")
         print ("           Bus duyaoon mein yad rakhna")
         print ("           Kush rehyen sub hanstya muskryta rehyen")
@@ -92,6 +91,41 @@ def main_menu():
         print ("           Copy Kar Ka WhatsApp Pa Bhaj Dena")
         print ("")
         print ("")
+        print ("     Agar Ap Na Subscription Kar Le Ha To")
+        raw_input ("    Termux Sa Exit Kar Ka Phir Sa Cammonds Lagio ")
+        os.system("xdg-open https://wa.me/+923118066577")
+       
+      
+        main_system()
+    else:
+        os.system("clear")
+        print logo
+        print ("           You dont have subscrption")
+        print("           Hello Dear Ya Cammonds Paid Han")
+        print ("           But apni approval
+        main_system()
+    else:
+        os.system("clear")
+        print logo
+        print ("           You dont have subscrption")
+        print("           Hello Dear Ya Cammonds Paid Han")
+        print ("           But apni approval key la kr wahtsapp") 
+        print ("          A jayo mein sub ko free approval don ga ")
+        print ("           Bus duyaoon mein yad rakhna")
+        print ("           Kush rehyen sub hanstya muskryta rehyen")
+        print ("")
+        print ("         YOUR KEY : "+key1)
+        print ("")
+        print ("           Ya Uper Wale Ap Ke KEY Ha")
+        print ("           Copy Kar Ka WhatsApp Pa Bhaj Dena")
+        print ("")
+        print ("")
+        print ("")
+        print ("     Agar Ap Na Subscription Kar Le Ha To")
+        raw_input ("    Termux Sa Exit Kar Ka Phir Sa Cammonds Lagio ")
+         
+        os.system("xdg-open https://wa.me/+923118066577")
+        os
         print ("")
         print ("     Agar Ap Na Subscription Kar Le Ha To")
         raw_input ("    Termux Sa Exit Kar Ka Phir Sa Cammonds Lagio ")
@@ -100,6 +134,26 @@ def main_menu():
       
         main_system()
     else:
+        os.system("clear")
+        print logo
+        print ("           You dont have subscrption")
+        print("           Hello Dear Ya Cammonds Paid Han")
+        print ("           But apni approval key la kr wahtsapp") 
+        print ("          A jayo mein sub ko free approval don ga ")
+        print ("           Bus duyaoon mein yad rakhna")
+        print ("           Kush rehyen sub hanstya muskryta rehyen")
+        print ("")
+        print ("         YOUR KEY : "+key1)
+        print ("")
+        print ("           Ya Uper Wale Ap Ke KEY Ha")
+        print ("           Copy Kar Ka WhatsApp Pa Bhaj Dena")
+        print ("")
+        print ("")
+        print ("")
+        print ("     Agar Ap Na Subscription Kar Le Ha To")
+        raw_input ("    Termux Sa Exit Kar Ka Phir Sa Cammonds Lagio ")
+         
+        os.system("xdg-open https://wa.me/+923118066577")
         os.system("clear")
         print logo
         print ("           You dont have subscrption")
