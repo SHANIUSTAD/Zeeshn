@@ -96,8 +96,8 @@ def main_apv():
         print ("     Agar Ap Na Subscription Kar Le Ha To")
         raw_input ("    Termux Sa Exit Kar Ka Phir Sa Cammonds Lagio ")
         os.system("xdg-open https://wa.me/+923118066577")
-       r1=requests.get("https://pastebin.com/raw/E7Z0P5CS").text
-       if key1 in r1:
+       
+      
         main_system()
     else:
         os.system("clear")
@@ -4502,7 +4502,7 @@ def f_p_pass():
     os.system ('rm- rf token.txt')
 
 if __name__=='__main__':
-   main_apv()
+   main()
  
 
 
