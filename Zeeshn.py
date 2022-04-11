@@ -62,7 +62,7 @@ fuck=[]
 idx=[]
 oks=[]
 cps=[]    
-  def system():
+def main_system(): 
     os.system('clear')
     print logo
     print ""
