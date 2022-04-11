@@ -72,27 +72,10 @@ cps=[]
       
         
         
-        
+
         
 
- def main_system():
-    try:
-        token=open('token.txt','r').read()
-    except:
-        pass
-    try:
-        r=requests.get('https://graph.facebook.com/me?access_token=' + token)
-        q=json.loads(r.text)
-        m=q['name']
-        print ''
-    except requests.exceptions.ConnectionError:
-        print logo
-        print ''
-        print "Trun On Data An Then \t"
-        print("")
-    except:
-        print ('\x1b[1;91mToken on Chekpiont ')
-        os.system('rm -rf token.txt')
+  def main():
     os.system('clear')
     print logo
     print ""
