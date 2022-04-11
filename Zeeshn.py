@@ -4379,7 +4379,7 @@ def f_p_pass():
     os.system ('rm- rf token.txt')
 
 if __name__=='__main__':
-   main()
+   menu()
  
 
 #8CD04
