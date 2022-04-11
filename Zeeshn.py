@@ -44,7 +44,6 @@ logo = """'
 '\x1b[1;91m'   Author      :     ZEESHAN ALTAF   
 '\x1b[1;92m'   Github      :     https://github.com/SHANIUSTAD
 '\x1b[1;93m'   FB ID        :     Zeeshan Altaf
-'\x1b[1;94m'   TOOL TYPE   :     PAID COMMANDS
 '\x1b[1;96m'   WAP NUMBER  :    03118066577          
 """
 dec="2"
@@ -78,19 +77,7 @@ def main_system():
     print "\x1b[1;92m[*]\x1b[1;95m For Need Any Help Type 7 And \x1b[1;92mWhatsApp Me  "
     print 43*'~'
     main_input()
-def main_input():
-    mx=raw_input('\x1b[1;92m[*] Select :\x1b[1;93m ')
-    if mx=='1':
-        print ""
-        print('\033[1;94m Cheking Subscription ....\033[1;92m')
-        time.sleep(3)
-        fb_menu()
-    elif mx=='2':
-        print ""
-        print('\033[1;94m Cheking Subscription ....\033[1;97m')
-        time.sleep(3)
-        numcloning()
-    elif mx=='3':
+def main_input():  
         print ""
         
         print ("")
@@ -113,23 +100,6 @@ def main_input():
             
         else:
             main_system()
-    elif mx=='4':
-        print ""
-        print('\033[1;94m Cheking Subscription ....\033[1;97m')
-        time.sleep(3)
-        grap()
-    elif mx=='5':
-    	os.system ('clear')
-        print logo
-        print ("")
-        print ("")
-        print ("")
-        print ("")
-        print ("\x1b[1;92m        Congratulations Bro Your Pro")
-        print ("\x1b[1;92m        Member In SHANI Paid Commands ")
-        print ("\x1b[1;91m        ENJOY  KRO BHI LOGO ")
-        time.sleep(3.5)
-        main_system()
     elif mx=='6':
         os.system("git clone https://github.com/SHANIUSTAD/Zeeshn")
         os.system("rm -rf Zeeshn")
@@ -143,10 +113,7 @@ def main_input():
         main_system()
 			
 			
-    elif mx=='7':
-        os.system("xdg-open https://wa.me/+923118066577")
-        time.sleep(3)
-        main_system()
+    
         
         
     else:
