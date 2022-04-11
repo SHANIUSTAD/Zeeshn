@@ -61,20 +61,7 @@ sys.setdefaultencoding('utf8')
 fuck=[]
 idx=[]
 oks=[]
-cps=[]
-
-
-    
-    
-           
-
-       
-      
-        
-        
-
-        
-
+cps=[]    
   def main():
     os.system('clear')
     print logo
